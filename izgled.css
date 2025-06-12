@@ -1,0 +1,99 @@
+/* stil-barca.css */
+
+:root {
+  --fc-blue: #004D98;
+  --fc-claret: #A50044;
+  --fc-gold: #EDBB00;
+  --fc-red: #DB0030;
+  --bg-dark: #000;
+  --text-light: #FFF;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--fc-blue);
+  padding: 20px 0;
+}
+
+header h1, header h2 {
+  margin: 0;
+  color: var(--fc-gold);
+}
+
+nav {
+  background-color: var(--fc-claret);
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: var(--fc-gold);
+}
+
+main {
+  padding: 20px;
+  background: #111;
+}
+
+h3 {
+  color: var(--fc-red);
+  margin-bottom: 10px;
+}
+
+p, li {
+  color: var(--text-light);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid var(--fc-blue);
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+video, audio, iframe {
+  border: 4px solid var(--fc-red);
+  border-radius: 8px;
+  margin: 20px auto;
+  display: block;
+}
+
+footer {
+  background-color: var(--fc-claret);
+  color: var(--text-light);
+  padding: 10px 0;
+  border-top: 4px solid var(--fc-gold);
+}
+
+/* Opcionalno: stil za linkove u paragrafima */
+a {
+  color: var(--fc-gold);
+}
+a:hover {
+  color: var(--fc-red);
+}
